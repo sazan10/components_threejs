@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  pressure_old_docker:
+    image: pressure_old_docker
+    build: .
+    ports:
+      - 8000:8000
